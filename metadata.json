@@ -1,0 +1,56 @@
+
+{
+  "name": "School CyberShield - Система аудита ИБ",
+  "description": "Полнофункциональная система мониторинга и аудита информационной безопасности для образовательных учреждений с использованием ИИ Gemini для анализа уязвимостей",
+  "version": "1.0.0",
+  "author": "Senior Fullstack Engineer & Security Expert",
+  "repository": "school-cybershield",
+  "features": [
+    "Сетевое сканирование через ARP",
+    "Определение производителей устройств по MAC-адресам",
+    "Real-time мониторинг системы (CPU, RAM, Disk, Temp)",
+    "Проверка статуса Firewall и Antivirus",
+    "AI анализ уязвимостей через Google Gemini",
+    "Визуализация сетевой нагрузки",
+    "Профессиональный dashboard UI",
+    "CORS поддержка для безопасной коммуникации"
+  ],
+  "technologies": {
+    "frontend": [
+      "React 19",
+      "TypeScript",
+      "Tailwind CSS",
+      "Recharts",
+      "Lucide React",
+      "Vite"
+    ],
+    "backend": [
+      "Python 3.8+",
+      "Flask",
+      "Flask-CORS",
+      "Scapy",
+      "psutil"
+    ],
+    "ai": [
+      "Google Gemini API",
+      "gemini-3-pro-preview",
+      "gemini-3-flash-preview"
+    ]
+  },
+  "endpoints": {
+    "/api/health": "Health check",
+    "/api/system": "System statistics",
+    "/api/scan": "Network scan with device detection"
+  },
+  "components": {
+    "Dashboard": "Главная страница с метриками и графиками",
+    "NetworkScanner": "Сканирование сети и обнаружение устройств",
+    "DeviceMonitor": "Мониторинг производительности ПК",
+    "VulnerabilityReport": "AI анализ уязвимостей",
+    "WifiAnalyzer": "Анализ беспроводных сетей"
+  },
+  "requirements": {
+    "python": "3.8+",
+    "nodejs": "16+",
+    "administrator": "Требуется для ARP сканирования (Windows)"
+  }
